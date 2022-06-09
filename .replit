@@ -1,0 +1,16 @@
+      emptyRules = "warning" # Do not use empty rulesets
+      float = "ignore" # Avoid using 'float'. Floats lead to fragile CSS that is easy to break if one aspect of the layout changes.
+      fontFaceProperties = "warning" # @font-face rule must define 'src' and 'font-family' properties 
+      hexColorLength = "error" # Hex colors must consist of three, four, six or eight hex numbers
+      idSelector = "ignore" # Selectors should not contain IDs because these rules are too tightly coupled with the HTML.
+      ieHack = "ignore" # IE hacks are only necessary when supporting IE7 and older
+      important = "ignore" # Avoid using !important. It is an indication that the specificity of the entire CSS has gotten out of control and needs to be refactored.
+      importStatement = "ignore" # Import statements do not load in parallel
+      propertyIgnoredDueToDisplay = "warning" # Property is ignored due to the display
+      universalSelector = "ignore" # The universal selector (*) is known to be slow
+      unknownAtRules = "warning" # Unknown at-rule
+      unknownProperties = "warning" # Unknown property.
+      validProperties = [ ] # add some properties that the linter doesn't know about
+      unknownVendorSpecificProperties = "ignore" # Unknown vendor specific property.
+      vendorPrefix = "warning" # When using a vendor-specific prefix also include the standard property
+      zeroUnits = "ignore" # No unit for zero needed"
